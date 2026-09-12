@@ -53,6 +53,9 @@ archive/
 screen1_live_monitor.png
 screen2_alert_escalation.png
 screen3_session_report.png
+!docs/
+!docs/screenshots/
+!docs/screenshots/*.png
 
 # Logs
 *.log
