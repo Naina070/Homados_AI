@@ -3,6 +3,7 @@ services:
     name: homados-ai
     runtime: docker
     plan: free
+    region: singapore
     healthCheckPath: /healthz
     envVars:
       - key: CORS_ORIGINS
