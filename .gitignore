@@ -1,0 +1,59 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node
+node_modules/
+frontend/dist/
+frontend/.vite/
+npm-debug.log*
+
+# Secrets & local env
+.env
+.env.local
+frontend/.env.local
+*.pem
+
+# Models (pretrained weights are downloaded, not committed)
+models/ecapa_tdnn/
+models/aasist/
+models/huggingface/
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.onnx
+!models/
+!models/ecapa_tdnn/
+!models/aasist/
+!models/**/README.md
+
+# Audio samples (keep tiny fixtures only)
+data/raw/
+data/cache/
+*.wav
+*.mp3
+*.flac
+!backend/tests/fixtures/.gitkeep
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+_zip/
+archive/
+.venv/
+screen1_live_monitor.png
+screen2_alert_escalation.png
+screen3_session_report.png
+
+# Logs
+*.log
+logs/

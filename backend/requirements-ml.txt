@@ -1,0 +1,8 @@
+# Optional GPU/CPU deep-learning stack.
+# Install after the base requirements. Prefer Python 3.10–3.12.
+# ECAPA-TDNN training is NOT done here — these packages load pretrained weights.
+
+-r requirements.txt
+torch>=2.2.0
+torchaudio>=2.2.0
+speechbrain>=1.0.0
