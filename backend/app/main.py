@@ -1,14 +1,4 @@
-from __future__ import annotations
 
-from fastapi import FastAPI, HTTPException
-from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import FileResponse
-from fastapi.staticfiles import StaticFiles
-from pathlib import Path
-
-from app.config import get_settings
-from app.routers.api import router as api_router
-from app.services.status import engine_status
 
 settings = get_settings()
 ROOT = Path(__file__).resolve().parents[2]
